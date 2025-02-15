@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "revenant:item/amarite_longsword",
+    "layer1": "revenant:item/amarite_longsword_overlay"
+  },
+  "display": {
+    "fixed" : {
+      "scale": [1.7, 1.5, 1.3]
+    }
+  }
+}

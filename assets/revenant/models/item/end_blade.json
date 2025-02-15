@@ -1,34 +1,36 @@
 {
-	"parent": "minecraft:item/handheld",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "revenant:item/icarus"
+		"layer0": "revenant:item/end_blade"
 	},
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 50],
-			"translation": [0, 6, 0.5],
-			"scale": [1.2, 1.2, 1.1]
+			"translation": [0, 6.5, 0.5],
+			"scale": [1.5, 1.5, 1.3]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, -50],
-			"translation": [0, 6, 0.5],
-			"scale": [1.2, 1.2, 1.1]
+			"translation": [0, 6.5, 0.5],
+			"scale": [1.5, 1.5, 1.3]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -90, 25],
 			"translation": [1.13, 3.2, 1.13],
-			"scale": [1.2, 1.2, 1.1]
+			"scale": [1.5, 1.5, 1.3]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, -25],
 			"translation": [1.13, 3.2, 1.13],
-			"scale": [1.2, 1.2, 1.1]
+			"scale": [1.5, 1.5, 1.3]
 		},
 		"head": {
-			"translation": [0, -15.25, 0]
+			"rotation": [0, 0, -71],
+			"translation": [-8.75, 7, 0]
 		},
 		"fixed": {
-			"scale": [1.2, 1.2, 1.1]
+			"scale": [1.5, 1.5, 1.3]
 		}
 	}
 }

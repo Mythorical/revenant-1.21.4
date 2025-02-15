@@ -1,36 +1,37 @@
 {
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "revenant:item/revenant_items/cudgel_of_the_gods"
+		"layer0": "revenant:item/poiseidens_anchor"
 	},
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 50],
-			"translation": [0, 7, 1.25],
-			"scale": [1.8, 1.8, 1.6]
+			"translation": [0, 6, 0.5],
+			"scale": [1.6, 1.6, 1.4]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, -50],
-			"translation": [0, 7, 1.25],
-			"scale": [1.8, 1.8, 1.6]
+			"translation": [0, 6, 0.5],
+			"scale": [1.6, 1.6, 1.4]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -90, 25],
 			"translation": [1.13, 3.2, 1.13],
-			"scale": [1.6, 1.6, 0]
+			"scale": [1.5, 1.5, 1.3]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, -25],
 			"translation": [1.13, 3.2, 1.13],
-			"scale": [1.6, 1.6, 1.4]
+			"scale": [1.5, 1.5, 1.3]
 		},
-		"head": {
-			"rotation": [180, 88, 0],
-			"translation": [0.25, 7.5, -7.75]
+		"gui": {
+			"translation": [0, 0, 0],
+			"scale": [1.0, 1.0, 1.0]
 		},
 		"fixed": {
-			"scale": [1.8, 1.8, 1.6],
-			"translation": [-0.5, 0.0, 0.5]
+			"rotation": [0, 0, 0],
+			"translation": [-0.5, 0, 0.5],
+			"scale": [1.6, 1.6, 1.5]
 		}
 	}
 }
