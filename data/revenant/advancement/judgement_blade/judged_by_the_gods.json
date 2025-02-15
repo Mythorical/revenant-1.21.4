@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "judged_by_the_gods": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "player",
+          "slots": {
+            "weapon.mainhand": {
+              "items": "poisonous_potato",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "revenant": "blade_of_judgement"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "revenant:judgement_blade/post_kill"
+  }
+}

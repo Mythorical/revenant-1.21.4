@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "SGS",
+    " B "
+  ],
+  "key": {
+    "S": "minecraft:stone",
+    "G": "minecraft:raw_gold_block",
+    "B": "minecraft:blaze_rod",
+    "A": "minecraft:ancient_debris"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "components": {
+      "minecraft:item_model": "revenant:cudgel_of_the_gods",
+      "minecraft:item_name": "\"Cudgel Of The Gods\"",
+      "minecraft:rarity": "uncommon",
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

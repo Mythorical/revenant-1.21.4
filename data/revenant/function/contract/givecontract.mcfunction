@@ -1,0 +1,1 @@
+give @s book[item_name='{"text":"Contract","bold":true,"color":"#ffb31a"}',lore=['{"text":"Unsigned","italic":false,"color":"red"}'],rarity=uncommon,item_model="revenant:contractunsigned",food={can_always_eat:true,nutrition:0,saturation:0},consumable={animation:none,sound:intentionally_empty,has_consume_particles:false,consume_seconds:1},custom_data={revenant:"contract"}]

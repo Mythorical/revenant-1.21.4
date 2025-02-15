@@ -1,0 +1,1 @@
+give @s iron_sword[item_model="revenant:spear_of_the_gods",item_name='{"text":"Spear Of The Gods"}',rarity=uncommon,attribute_modifiers={modifiers:[{type:attack_speed,id:"minecraft:base_attack_speed",amount:-1.6,operation:add_value,slot:mainhand},{type:attack_damage,id:"minecraft:base_attack_damage",amount:5,operation:add_value,slot:mainhand}]},max_stack_size=1]

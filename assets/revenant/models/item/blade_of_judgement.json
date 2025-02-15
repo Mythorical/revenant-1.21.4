@@ -1,0 +1,42 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "revenant:item/blade_of_judgement"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 50],
+			"translation": [0, 6, 0.5],
+			"scale": [1.6, 1.6, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -50],
+			"translation": [0, 6, 0.5],
+			"scale": [1.6, 1.6, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.5, 1.5, 1.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.5, 1.5, 1.3]
+		},
+		"gui": {
+			"translation": [0, 0.25, 0],
+			"scale": [1.3, 1.3, 1.2]
+		},
+		"head": {
+			"rotation": [0, 0, -135],
+			"translation": [1, 5.75, 1.25],
+			"scale": [2, 2, 1.8]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [-0.5, 0, 0.5],
+			"scale": [1.8, 1.8, 1.7]
+		}
+	}
+}

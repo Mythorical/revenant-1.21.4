@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:book"
+            ],
+            "predicates": {
+              "minecraft:custom_data": {"revenant": "signed_contract"}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "revenant:contract/sever"
+    }
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "judged_by_the_gods": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "player",
+            "slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:netherite_sword",
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "revenant": "grave_bane"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "revenant:grave_bane/ban"
+    }
+  }

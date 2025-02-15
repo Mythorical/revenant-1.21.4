@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "punishment": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "player",
+            "slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:book",
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "revenant": "signed_contract"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "revenant:contract/punishment"
+    }
+  }
